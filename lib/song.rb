@@ -49,7 +49,11 @@ class Song
         count += 1 
         artist_hash[artist] = count
       else 
-        
+        count += 1 
+        artist_hash[artist] = count
+      end 
+    end 
+    artist_hash 
   end 
 end 
 
