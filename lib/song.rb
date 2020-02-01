@@ -35,6 +35,7 @@ class Song
         genre_hash[genre] = count 
       else 
         count = 1 
+        genre_hash[genre] = count 
       end 
     end 
     genre_hash
